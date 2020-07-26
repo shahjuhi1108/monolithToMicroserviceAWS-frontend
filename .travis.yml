@@ -15,7 +15,7 @@ before_script:
 
 script:
   - docker --version # print the version for logging
-  - cd udagram-user-api
+  - cd udagram-frontend
   - docker build -t udagram-frontend-image1 .
   - docker tag udagram-frontend-image1 shahjuhi1108/udagram-frontend-image1:latest
   
